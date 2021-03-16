@@ -9,7 +9,7 @@ defmodule ListLengthTest do
 
       expected_response = 4
 
-      assert_response = expected_response
+      assert response == expected_response
     end
   end
 end
